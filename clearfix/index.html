@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Example clearfix</title>
+	<meta name="description" content="Example clearfix">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,700&amp;subset=latin,latin-ext">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header>
+		<h1>Example clearfix</h1>
+	</header>
+	
+	<main>
+		<pre>
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+/* IE fix */
+.group {
+	*zoom: 1;
+}
+		</pre>
+
+		<article>
+			<div class="post-content">
+				<p>Jelly beans jujubes gingerbread muffin. Dragée lemon drops marzipan brownie apple pie fruitcake lollipop.</p>
+				<div id="wrapper">
+					<header>
+						<code>&lt;header&gt;</code>
+					</header>
+
+					<div id="main" class="group">
+						<section>
+							<code>&lt;section&gt;</code>
+						</section>
+
+						<aside>
+							<code>&lt;aside&gt;</code>  
+						</aside>
+					</div>
+
+					<footer>
+						<code>&lt;footer&gt;</code>
+					</footer>
+				</div>
+				<p>Brownie pastry chocolate bar tiramisu. Unerdwear.com brownie tart unerdwear.com fruitcake marzipan.</p>
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		&copy; 2020
+	</footer>
+
+</body>
+</html>
