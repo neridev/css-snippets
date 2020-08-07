@@ -1,2 +1,2 @@
-# css-snippets
+# CSS snippets
 CSS basic snippets
