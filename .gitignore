@@ -1,0 +1,10 @@
+.idea
+composer.lock
+package-lock.json
+*.log
+.DS_Store*
+.fuse_*
+.phploy
+
+node_modules
+/vendor/
