@@ -1,2 +1,2 @@
-# HTML and CSS snippets
-HTML and CSS basic snippets
+# HTML, CSS and JS snippets
+HTML, CSS and JS basic snippets
