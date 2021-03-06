@@ -6,11 +6,10 @@ html {
 body {
   color: #222;
   font: 18px/30px Georgia, serif;
-  width: 90%;
+  width: 100%;
   max-width: 960px;
   min-height: 100%;
   margin: 0 auto;
-  padding: 0 5%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -37,6 +36,8 @@ body {
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  width: 90%;
+  padding: 0 5%;
   min-height: 100vh;
 }
 
@@ -103,4 +104,17 @@ footer {
   margin: 15px 0;
   border-radius: 6px;
   text-align: center;
+}
+
+.progress-container {
+  position: fixed;
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
 }
