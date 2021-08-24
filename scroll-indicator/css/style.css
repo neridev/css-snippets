@@ -109,6 +109,7 @@ footer {
 .progress-container {
   position: fixed;
   width: 100%;
+  max-width: 960px;
   height: 8px;
   background: #ccc;
 }
