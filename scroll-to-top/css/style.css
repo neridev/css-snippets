@@ -107,7 +107,15 @@ footer {
 }
 
 .arrow-up-container {
+  display: none;
   position: fixed;
   right: 25px;
   bottom: 25px;
+}
+
+.arrow-up-circle {
+  display: block;
+  position: relative;
+  width: 64px;
+  height: 64px;
 }
