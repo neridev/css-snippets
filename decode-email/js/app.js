@@ -1,5 +1,4 @@
-function decodeEmailFnc(encodeEmail)
-{
+function decodeEmailFnc(encodeEmail) {
 	var email = encodeEmail;
 	if (email.indexOf("~") > -1)
 		email = email.replace(/~/gi, '@');
