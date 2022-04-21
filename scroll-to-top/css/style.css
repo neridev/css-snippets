@@ -106,16 +106,16 @@ footer {
   text-align: center;
 }
 
-.progress-container {
+.arrow-up-container {
+  display: block;
   position: fixed;
-  width: 100%;
-  max-width: 960px;
-  height: 8px;
-  background: #ccc;
+  right: 25px;
+  bottom: 25px;
 }
 
-.progress-bar {
-  height: 8px;
-  background: #4caf50;
-  width: 0%;
+.arrow-up-circle {
+  display: none;
+  position: relative;
+  width: 64px;
+  height: 64px;
 }
